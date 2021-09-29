@@ -1,1 +1,1 @@
-Test
+There is nothing valuable in this repository. It's just for testing package installing.
