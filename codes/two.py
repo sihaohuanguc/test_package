@@ -1,5 +1,7 @@
+#!/usr/bin/python
+
 import os 
 import sys
 
-def once():
+def twice():
     print("World!")

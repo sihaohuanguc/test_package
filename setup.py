@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup,find_packages
 setup(
     name="waiting_for_a_name",
     version="1.0",
     description="Just for fun",
     author="Me",
-    py_modules=["codes.one","codes.two"]
+    packages = find_packages(),
 )
