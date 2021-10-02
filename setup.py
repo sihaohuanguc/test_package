@@ -5,4 +5,6 @@ setup(
     description="Just for fun",
     author="Me",
     packages = find_packages(),
+    scripts=["bin/main1"],
+    license="GPL 3.0"
 )

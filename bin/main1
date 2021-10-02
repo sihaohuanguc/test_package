@@ -1,0 +1,32 @@
+#!/usr/bin/python
+import argparse
+from codes.one import once,add_it
+from codes.two import twice
+
+once()
+twice()
+
+a=add_it(2)
+print(a)
+
+p=argparse.ArgumentParser(description="Just for fun")
+p.add_argument("--input","-i",type=str,help="Your input file.")
+p.add_argument("--output","-o",type=str,help="Your output file.")
+p.add_argument("--test_number","-t",type=int,help="Type in the number to test.")
+
+pr=p.add_argument_group("required arguments")
+pr.add_argument("--mood","-m",required=True,help="Tell me you current mood!")
+args=p.parse_args()
+
+if args.input:
+    in_file=args.input
+else:
+    in_file="./happy_Friday.txt"
+
+print(in_file)
+print(args.mood)
+
+if args.test_number:
+    print(add_it(add_it(args.test_number)))
+else:
+    print("Where's your number?")
