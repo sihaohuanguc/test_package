@@ -12,7 +12,7 @@ List something:
 
 Here is a picture:
 
-[Picture1 - black](https://github.com/sihaohuanguc/test_package/blob/master/pic/pic1.png?raw=true)
+![Picture1 - black](https://github.com/sihaohuanguc/test_package/blob/master/pic/pic1.png?raw=true)
 
 # Download
 To download the package. Type in the terminal the following command
