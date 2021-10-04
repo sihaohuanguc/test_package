@@ -2,7 +2,7 @@
 ## This is a subtitle
 There is nothing valuable in this repository. It's just for testing package installing. However, it contains most elements needed for a package (I guess) and you could have a try to install it for fun.
 
-To search for useful info, [google](www.google.com) it! We could also make words **bold**.
+To search for useful info, [google](https://www.google.com) it! We could also make words **bold**.
 
 List something:
 
