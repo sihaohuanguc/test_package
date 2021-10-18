@@ -10,6 +10,8 @@ a=add_it(2)
 print(a)
 
 p=argparse.ArgumentParser(description="Just for fun. This line could be very long describing the package.")
+p.add_argument("Mode",type=str,help="Mode.")
+p.add_argument("fruit",type=str,help="Fruit.")
 p.add_argument("--input","-i",type=str,help="Your input file.")
 p.add_argument("--output","-o",type=str,help="Your output file.")
 p.add_argument("--test_number","-t",type=int,help="Type in the number to test.")
@@ -24,6 +26,7 @@ else:
     in_file="./happy_Friday.txt"
 
 print(in_file)
+print(args.Mode)
 print(args.mood)
 
 if args.test_number:
